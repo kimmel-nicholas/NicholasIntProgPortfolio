@@ -74,6 +74,8 @@ nav li:hover {
 }
 .footer {
   grid-area: footer;
+  background-color: lightsalmon;
+  
 }
 .wrapper {
   display: grid;
@@ -97,4 +99,3 @@ nav li:hover {
 .footer {
   background-color: lightsalmon;
 }
-//footer not needed but im leaving it for the future
