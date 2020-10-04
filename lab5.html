@@ -1,0 +1,88 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Lab 5</title>
+      <link href="style.css" rel="stylesheet" type="text/css" >
+    </head>
+	
+    <body>
+      <div class="wrapper">
+        <img class=w src = "pencil.png" alt="Banner" width= "50px" height="175px">
+        <div class="box header">
+          <header><h1>Lab 5</h1></header>
+        </div>
+
+        <div class="box sidebar">
+        <nav>
+        <u1>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="lab1.html">Lab 1</a></li>
+          <li><a href="lab2.html">Lab 2</a></li>
+          <li><a href="lab3.html">Lab 3</a></li>
+          <li><a href="lab4.html">Lab 4</a></li>
+          <li><a href="lab5.html">Lab 5</a></li>
+
+        </u1>
+        </nav>
+        </div>
+
+        <div class="box content">
+          <h2>Please fill out this form</h2>
+
+
+        <form>
+          <label>First name: </label><br/>
+          <input type="text"  placeholder ="Enter first name here" size="40" id = "fname"><br/>
+
+          <label>Last name: </label><br/>
+          <input type="text" placeholder ="Enter last name here" size="40" id = "lname"><br/>
+
+          <label>Email:</label><br/>
+          <input type="email" placeholder = "Enter a valid email here" size="40" id= "email"><br/>
+
+
+          <label>State: </label><br/>
+          <select id="state">
+            <option>Alabama</option>
+            <option>Florida</option>
+            <option>Georgia</option>
+          </select><br/>
+
+
+          <label>Marital status:</label><br/>
+          <input type = "radio" name = "marital" value= "single" >Not Married<br />
+
+          <input type = "radio" name = "marital" value= "married" >Married<br />
+
+
+
+          <label>Skills:</label><br/>
+          <input type="checkbox" name= "skills" value = "python">Python<br />
+
+          <input type="checkbox" name= "skills" value = "java">Java<br />
+
+          <input type="checkbox" name= "skills" value = "html">HTML<br />
+
+          <label>Comment Section:</label><br/>
+          <textarea id = "comments" rows = "5"></textarea><br/>
+
+          <input type="submit" value = "submit">
+        </form>
+
+
+
+
+        </div>
+    </div>
+    <main>
+    </main>
+    <div class = "box footer">
+    <footer>
+      <p>Nicholas Kimmel | 706-555-9823 | 123 Curvy Rd.</p>
+      <p id="demo"></p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
