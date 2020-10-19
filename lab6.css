@@ -1,0 +1,95 @@
+body {
+  margin: 1%;
+  background-color: yellow;
+}
+header{
+  font-family: 'Times New Roman', Times, serif;
+  color: rebeccapurple;
+  
+}
+footer{
+  font-family: 'Times New Roman', Times, serif;
+  color: darkorchid;
+}
+section{
+  font-family: 'Times New Roman', Times, serif;
+  color: darkorchid;
+}
+article{
+  font-family: 'Times New Roman', Times, serif;
+  color: darkgreen;
+}
+aside{
+  font-family: 'Times New Roman', Times, serif;
+  color: darkblue;
+}
+
+.wrapper {
+        display: grid;
+        grid-gap: 6px;
+        grid-template-columns: repeat(3, [col] auto ) ;
+        grid-template-rows: repeat(5, [row] auto  );
+    }
+
+    .box {
+        background-color:yellow;
+        border-radius: 2px;
+        padding: 15px;
+        font-size: 150%;
+
+    }
+
+    .paint{
+      max-width:100%;
+      height: auto;
+    }
+
+  .a {
+        grid-column: col / span 3;
+        grid-row: row ;
+        background-color:aqua;
+    }
+    .b {
+        grid-column: col / span 3;
+        grid-row: row 2;
+        padding: 5px;
+        background-color:aquamarine;
+
+    }
+    .c {
+        grid-column: col / span 2;
+        grid-row: row 3 ;
+        background-color:teal;
+
+    }
+    .d {
+        grid-column: col / span 2;
+        grid-row: row 4 ;
+        background-color: mediumaquamarine;
+    }
+    .e {
+        grid-column: col 3;
+        grid-row: row 3 / span 2;
+        background-color: mediumspringgreen
+    }
+    .f{
+        grid-column: col / span 3;
+        grid-row: row 5;
+        background-color: mediumseagreen
+    }
+
+    a:link, a:visited, a:active{
+      color: steelblue;
+      text-decoration: none;
+    }
+    nav li:hover {
+      background-color: palegoldenrod;
+      border-radius: 3px;
+    }
+
+    nav li{
+      padding: 3px;
+      list-style-type: none;
+      display: inline;
+    }
+    
